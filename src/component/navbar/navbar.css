@@ -1,0 +1,11 @@
+.navbar-brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+}
+
+.navbar navbar-expand-lg bg-body-tertiary{
+        position: fixed;
+
+}
