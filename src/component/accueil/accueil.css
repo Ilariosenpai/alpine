@@ -1,0 +1,73 @@
+
+.imgbot {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    
+}
+
+.textbot{
+
+    color: #0843A6;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 250px;
+    height: 40vh;
+}
+
+.text{
+
+    color: #0843A6;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    height: 40vh;
+    
+    
+   
+
+}
+
+h1{
+
+    color: #0843A6;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 60vh;
+    width: 100%;
+   
+   
+    
+}
+  
+video{
+   
+    width: 100%;
+    height: 90vh;
+
+object-fit: cover;
+z-index: -1;
+
+
+
+
+
+}

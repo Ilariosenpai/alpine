@@ -11,7 +11,6 @@ function Navbar() {
     <a class="navbar-brand" href="#"> <img src={logo}/> </a>
     <a href='configurateur.js'> <button type="button" class="btn btn-outline-primary">Configurateur</button> </a>
    
-   
   </div>
 </nav>
 

@@ -2,13 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Navbar from './component/navbar/navbar';
-import Video from './component/video/video';
+import Acc from './component/accueil/accueil';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+  
     <Navbar />
-    <Video />
+
+    <Acc />
+
+    
+    
+    
   </React.StrictMode>
 );
 

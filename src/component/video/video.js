@@ -12,7 +12,11 @@ const Video = () => {
             muted
             
             />
+            
         </div>
+
+        
+       
     );
 };
 
