@@ -1,21 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Navbar from './component/navbar/navbar';
-import Acc from './component/accueil/accueil';
+import App from './App';
+import { Provider } from 'react-redux';
+import {store} from './store/store';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  
-    <Navbar />
-
-    <Acc />
-
-    
-    
-    
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
 
